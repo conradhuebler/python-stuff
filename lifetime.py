@@ -11,6 +11,8 @@
 #                                                                   #
 #   Thanks to Bernardo De Souza @ The ORCA forum                    #
 #                                                                   #
+#   Conrad Hübler -- 2022                                           #
+#                                                                   #
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 #
 
@@ -35,7 +37,7 @@ k = []
 w = []
 
 def printHelp():
-    print ('test.py -i <inputfile> -t <300> -s <3>')
+    print ('lifetime.py -i <inputfile> -t <300> -s <3>')
     sys.exit(2)
 
 def getK(E,t):
